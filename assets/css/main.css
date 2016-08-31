@@ -1107,6 +1107,7 @@
         position: fixed;
         top: 0;
         right: 0;
+				cursor: pointer;
     }
 
     #home-button i {
