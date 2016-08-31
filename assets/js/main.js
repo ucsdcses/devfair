@@ -121,8 +121,6 @@ $("#students-button").click( function() {
    $("#students-content").show()
    $("#students-content").removeClass( "fadeOutUp" ) 
    $("#students-content").addClass( "fadeInUp" ) 
-   $("#home-button").removeClass( "fadeOut" ) 
-   $("#home-button").addClass( "fadeIn" ) 
 
 });
 
@@ -139,8 +137,6 @@ $("#sponsors-button").click( function() {
    $("#sponsors-content").show()
    $("#sponsors-content").removeClass( "fadeOutUp" ) 
    $("#sponsors-content").addClass( "fadeInUp" ) 
-   $("#home-button").removeClass( "fadeOut" ) 
-   $("#home-button").addClass( "fadeIn" ) 
 
 });
 
@@ -159,7 +155,5 @@ $("#home-button").click( function() {
    $("#landing-content").show()
    $("#landing-content").removeClass( "fadeOutUp" ) 
    $("#landing-content").addClass( "fadeInUp" ) 
-   $("#home-button").addClass( "fadeOut" ) 
-   $("#home-button").removeClass( "fadeIn" ) 
 
 });
