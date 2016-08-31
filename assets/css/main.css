@@ -1047,17 +1047,19 @@
 /* Students Content */
 
     #header > h1.thin-text {
-	font-weight: 300;
-	text-align: left;
-	padding-left: 10%;
-	width: 80%;
+			font-weight: 300;
+			text-align: left;
+			padding-left: 10%;
+			width: 80%;
     }
 
     #header > p.description-text {
-	text-align: left;
-	padding-left: 10%;
-	width: 80%;
-	margin-bottom: 20px;
+			font-weight: 300;
+			text-align: left;
+			padding-left: 10%;
+			width: 80%;
+			margin-bottom: 20px;
+			line-height: 175%;
     }
 
     @media screen and (max-width: 736px) {
