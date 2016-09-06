@@ -103,57 +103,8 @@
 })();
 
 // Page Transition Handling
-
-// Hide Unneeded Elements
-$("#students-content").hide()
-$("#sponsors-content").hide()
-
-// Show Students Page
-$("#students-button").click( function() {
-
-   // Remove Landing Content and Reset It
-   $("#landing-content").addClass( "fadeOutUp" ) 
-   $("#landing-content").removeClass( "fadeInUp" ) 
-   $("#landing-content").hide() 
-
-
-   // Attach Student Content and Home Button
-   $("#students-content").show()
-   $("#students-content").removeClass( "fadeOutUp" ) 
-   $("#students-content").addClass( "fadeInUp" ) 
-
-});
-
-// Show Sponsors Page
-$("#sponsors-button").click( function() {
-
-   // Remove Landing Content and Reset It
-   $("#landing-content").addClass( "fadeOutUp" ) 
-   $("#landing-content").removeClass( "fadeInUp" ) 
-   $("#landing-content").hide() 
-
-
-   // Attach Student Content and Home Button
-   $("#sponsors-content").show()
-   $("#sponsors-content").removeClass( "fadeOutUp" ) 
-   $("#sponsors-content").addClass( "fadeInUp" ) 
-
-});
-
-// Return Home
-$("#home-button").click( function() {
-
-   // Remove Current Content
-   $("#students-content").addClass( "fadeOutUp" ) 
-   $("#students-content").removeClass( "fadeInUp" ) 
-   $("#students-content").hide()
-   $("#sponsors-content").addClass( "fadeOutUp" ) 
-   $("#sponsors-content").removeClass( "fadeInUp" ) 
-   $("#sponsors-content").hide()
-
-   // Add Landing Content and Remove Home Button
-   $("#landing-content").show()
-   $("#landing-content").removeClass( "fadeOutUp" ) 
-   $("#landing-content").addClass( "fadeInUp" ) 
-
+$("#students-button").click(function() {
+	$('html,body').animate({
+		scrollTop: $("#what-text").offset().top - 40},
+		'slow');
 });
