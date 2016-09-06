@@ -299,7 +299,7 @@
 
 	footer {
 		width: 100%;
-		height: 150px;
+		height: 50px;
 	}
 
 		@media screen and (max-width: 1680px) {
@@ -1086,16 +1086,17 @@
 
 /* Students Content */
 
-    #students-content {
+    #landing-content {
         position: absolute;
-        top: 80px;
+        top: 160px;
+	left: 0;
 
     }
 
     @media screen and (max-width: 736px) {
-        #students-content {
+        #landing-content {
             position: absolute;
-            top: 30px;
+            top: 60px;
 
         }
     }
@@ -1170,9 +1171,14 @@
 
 		#center-buttons button {
 			display: block;
-            width: 95%;
-            margin: 0 auto;
+			width: 95%;
+			margin: 0 auto;
 		}
+
+		#center-buttons {
+			margin: 30px 10px;
+		}
+
 
 	}
 
@@ -1196,6 +1202,13 @@
     .main-logo {
         display: block;
         margin: 0 auto 1em;
+    }
+
+    @media screen and (max-width: 480px) {
+	    .main-logo {
+		width: 75%;
+	    }
+
     }
 
 /* Signup Form */
